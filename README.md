@@ -8,6 +8,10 @@
 <h2 align='center'> Estou construindo meu portfólio com atenção e amor <br>
 Assim que ele estiver finalizado, você irá visualizar uma imagem com uma pequena prévia dele por aqui, viu?  </h2> 
 
+<h4 align='center'>
+  Até logo! 💛
+</h4>
+
 <p align='center'>
   <a href="https://icons8.com/icon/PL6OMAFMAzDr/gato-pixel">Gato Pixel</a> icon by <a href="https://icons8.com">Icons8</a>
 </p>
