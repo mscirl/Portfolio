@@ -1,0 +1,7 @@
+:root {
+    --background-color-primary: ##a7a7a7;
+    --background-color-secundary: #DAA520; /* ou #EEE8AA */
+
+    --font-family-primary: "Lucida Console", "Courier New", monospace;;
+    --font-family-secundary: "Courier New", Courier, monospace;
+}
