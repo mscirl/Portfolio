@@ -1,124 +1,63 @@
+
 body {
     width: 100%;
+    min-height: 100%;
     margin: 0;
-    font-family: "Roboto Serif", serif;
 }
 
-.bg_video {
-    width: 100%;
-    height: 100%;
+title {
     position: absolute;
 }
 
-.bg_video video {
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    position: fixed;
+}
+
+section .bg_video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+section .bg_video video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
-/* MENU */
-
-.menu_itens {
-    display: flex;
-    position: relative;
-}
-
-.menu_itens ul li a,
-.social ul li a {
+.menu_itens ul li a {
     text-decoration: none;
-    color: #313131;
-    min-height: 100%;
-}
-
-.menu_itens ul li a:hover,
-.social ul li a:hover {
-    color: #d8d8d8;
-    transition: 0.5s;
 }
 
 .menu_itens ul{
     display: flex;
     list-style: none;
     gap: 100px;
-    font-size: 19px;
-    font-weight: 600;
-}
-
-/* FORM */
-
-form {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-}
-
-form p {
-    display: flex;
-    justify-content: center;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     color: #313131;
-    font-family: "Roboto Serif", serif;
+
 }
 
-form p:hover {
-    color: #d8d8d8;
+.social ul li {
+    text-decoration: none;
+    list-style: none;
 }
 
-form input, textarea {
-    transition-duration: 5s;
-    font-family: "Roboto Serif", serif;
-}
 
-.contact_me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.developer_by span {
+    position: absolute;
     position: fixed;
-    position: relative;
-    margin-top: 200px;
-}
-
-.contact_me button,
-.contact_me input,
-textarea {
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    width: 440px;
-    margin-bottom: 8px;
-    padding: 9px;
-    resize: none;
+    margin-top: 42%;
+    margin-bottom: 50rem;
+    margin-left: 75rem;
     font-size: 15px;
-    opacity: 80%;
-}
-
-textarea {
-    height: 90px;
-}
-
-.contact_me button {
-    background-color: #a0a0a0;
-    cursor: pointer;
-    width: 100%;
-    font-family: "Roboto Serif", serif;
-    font-weight: 500;
-}
-
-.contact_me button:hover {
-    background-color: #d8d8d8;
-}
-
-/* FOOTER */
-footer {
-    margin-left: 70rem;
-    margin-top: 20rem;
-}
-
-footer p {
-    position: fixed;
-    z-index: 1;
-    font-size: 14px;
     font-weight: 550;
     color: #313131;
 }
+
