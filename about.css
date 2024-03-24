@@ -1,7 +1,10 @@
-.container_stacks .stacks {
+.container_stacks {
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.container_stacks .stacks {
+    position: relative;
 }
 
 .perfil_photo .photo_container {
@@ -21,11 +24,8 @@
     cursor: pointer;
 }
 
-
-
 .perfil_photo img:hover {
     filter: blur(2px);
-
 }
 
 .container_presentation {
