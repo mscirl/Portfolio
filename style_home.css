@@ -1,37 +1,44 @@
 
 body {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     margin: 0;
-}
-
-title {
-    position: absolute;
 }
 
 section {
     width: 100%;
-    height: 100vh;
-    position: relative;
+    height: 100%;
     position: fixed;
 }
 
-section .bg_video {
+.bg_video {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 0;
 }
 
-section .bg_video video {
+.bg_video video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
 }
 
-.menu_itens ul li a {
+.menu_itens {
+    display: flex;
+    position: relative;
+}
+
+.menu_itens ul li a,
+.social ul li a {
     text-decoration: none;
+    color: #313131;
+}
+
+.menu_itens ul li a:hover,
+.social ul li a:hover {
+    color: #d8d8d8;
+    transition: 0.5s;
 }
 
 .menu_itens ul{
@@ -40,24 +47,27 @@ section .bg_video video {
     gap: 100px;
     font-size: 18px;
     font-weight: 600;
-    color: #313131;
 
+}
+
+.social {
+    display: flex;
+    justify-content: center;
 }
 
 .social ul li {
+    display: inline;
+    margin-right: 15px;
     text-decoration: none;
     list-style: none;
+    font-weight: 700;
 }
 
-
-.developer_by span {
-    position: absolute;
+footer p {
     position: fixed;
-    margin-top: 42%;
-    margin-bottom: 50rem;
+    margin-top: 600px;
     margin-left: 75rem;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 550;
     color: #313131;
 }
-
