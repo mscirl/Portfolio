@@ -1,0 +1,45 @@
+.container_stacks .stacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil_photo .photo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 140px;
+    margin-top: 100px;
+}
+
+.perfil_photo img {
+    display: flex;
+    height: 320px;
+    border-radius: 200px;
+    margin-top: 0.2%;
+    cursor: pointer;
+}
+
+
+
+.perfil_photo img:hover {
+    filter: blur(2px);
+
+}
+
+.container_presentation {
+    display: flex;
+    text-align: center;
+}
+
+.container_presentation p,
+.container_presentation {
+    display: flex;
+    flex-direction: column;
+    margin-left:10%;
+    margin-right: 10% ;
+    color: #d8d8d8;
+}
+
+

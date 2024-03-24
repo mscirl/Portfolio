@@ -1,0 +1,50 @@
+#contact {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.contact_me button,
+.contact_me input,
+textarea {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 440px;
+    margin-bottom: 8px;
+    padding: 9px;
+    resize: none;
+    font-size: 15px;
+}
+
+.contact_me input:focus,
+textarea:focus {
+    background-color: #313131;
+}
+
+textarea {
+    height: 90px;
+}
+
+.contact_me button {
+    background-color: #a0a0a0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact_me button:hover {
+    background-color: #d8d8d8;
+}
+
