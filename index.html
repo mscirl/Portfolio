@@ -5,94 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style_home.css">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link rel="stylesheet" href="/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet"><body>
 =======
     <link rel="stylesheet" href="/about.css">
+=======
+>>>>>>> aa0a9c9 (ajustes para simplificação da página)
     <link rel="stylesheet" href="/contact.css">
-    <link rel="stylesheet" href="vars.css">
-    <link rel="shortcut icon" type="imagex/png" href="./images/sol.ico">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet"><body>
         <div class="bg_video">
             <video autoplay loop muted>
                 <source src="./images/landscape.mp4" type="video/mp4">
             </video>
         </div>
+
         <div class="menu_itens">
             <ul>
-                <li><a href="#about_me"> Sobre mim </a></li>
-                <li><a href="#projects"> Projetos </a></li>
-                <li><a href="#contact"> Contate-me </a></li>
+                <li><a href="#"> Sobre mim </a></li>
+                <li><a href="#"> Projetos </a></li>
+                <li><a href="#"> Contate-me </a></li>
             </ul>
         </div>
-        <section id="about_me">
-            <div class="perfil_photo">
-                <div class="photo_container">
-                    <img alt="foto de mulher parda usando óculos, de cabelo curto e sorrindo para espelho" src="images/perfil.jpeg"/>
-                </div>
-                <div class="social">
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/thais-maciel-7a6074134/"> Linkedin </a></li>
-                        <li><a href="https://github.com/mscirl"> Github </a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container_presentation">
-                <p>
-                    Meu nome é Thais Maciel Fernandes, 25 anos. Cursando Engenharia de Software.
-                    Entusiasta da natureza e de viagens, apaixonada pelo mundo da tecnologia.
-                    Em minha jornada acadêmica e experiência profissional, explorei projetos desafiadores que ampliaram minha compreensão e habilidades em diversas áreas, tanto técnicas, quanto conceituais.
-                    Dedico tempo a projetos pessoais, enquanto busco constantemente aprimorar-me e contribuir para o campo da tecnologia.
-                    Fora desse mundo, encontro equilíbrio na exploração da natureza, em minhas viagens e na companhia dos meus três gatos.
-                </p>
-            </div>
-        <div class="container_stacks">
-            <span class="stacks">
-                <img alt="ícone JavaScript" src="./images/icons-javascript.png"/>
-                <img alt="ícone HTML" src="./images/icon-html.png"/>
-                <img alt="ícone CSS" src="./images/icons-css.png"/>
-                <img alt="ícone React" src="./images/icons-react.png"/>
-            </span>
-        </div> 
-        </section>
-        <section id="container_projects" hidden>
-            <div id="projects">
-            <article id="project1">
-                <img src="./images/ecommerce01.png" alt="imagem de página inicial de um site de compras" />
-                <p> Projeto de e-commerce desenvolvido em imersão feito pela Hashtag Treinamentos </p>
-                <a href="https://github.com/mscirl/Ecommerce"> Github </a>
-            </article>
-            <article id="project2">
-                <img src="./images/formulario.png" alt="tela de um formulário para preencher nome, email e senha de até 8 caracteres" />
-                <p> Formulário simples com validação de informações </p>
-                <a href="#"> Github </a>
-            </article>
-            <article id="project3">
-                <img src="./images/jogo_adivinhacao.png" alt="imagem de página inicial de um jogo de adivinhação, onde você ajuda um astronauta a chegar em seu planeta através da adivinhação de números" />
-                <p> Onde o pequeno astronauta Wotteo tenta encontrar o caminho de volta pra casa com a sua ajuda </p>
-                <a href="#"> Github </a>
-            </article>
-            </div>
-        </section>
-        <section id="contact" hidden>
+
+        <section>
             <div class="contact_me">
             <form>
-                <input type="text" id="name" placeholder="Seu nome"/>
-                <input type="email" id="email" placeholder="Seu email"/>
+                <p> Me mande uma mensagem </p>
+                <input type="text" id="name" placeholder="Seu nome" required/>
+                <input type="email" id="email" placeholder="Seu email" required/>
                 <input type="tel" id="tel" placeholder="Seu celular"/>
-                <textarea id="mesage" placeholder="Sua mensagem" rows="50"></textarea>
+                <textarea id="mesage" placeholder="Sua mensagem" rows="50" required></textarea>
                 <button id="sent"> Enviar </button>
             </form>
             </div>
         </section>
-        <footer class="developer_by">
-            <div class="developer_content">
+
+    <footer class="developer_by">
+        <div class="developer_content">
             <p> Desenvolvido por Thais Maciel &copy; - 2024 </p>
         </div>
-        </footer>
+    </footer>
 <script src="script.js"></script>
 </body>
 </html>
